@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: url('bg2.jpg');
   background-size: 100%;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   position: absolute;
   left: 55%;
   top: 17%;
-  background-image: linear-gradient(to right, #FF41ED, #A100FF);
+  background-image: linear-gradient(to right, #ff41ed, #a100ff);
 }
 
 .left-bar-text {
@@ -27,7 +27,8 @@ body {
   width: 50px;
 }
 
-.caption1, .caption2 {
+.caption1,
+.caption2 {
   font-size: 100px;
   z-index: 1;
   color: #fff;
@@ -36,28 +37,33 @@ body {
 
 .caption1 {
   position: relative;
-  left: 15%;
+  left: 9%;
   top: 50%;
 }
 
-.caption2 {
+/*.caption2 {
   color: black;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fff;
   position: relative;
-  left: 20%;
-  top: 50%;
-}
+  left: 35%;
+  top: 40%;
+}*/
 
 .about {
   color: #fff;
   width: 40%;
-  position: relative;
-  bottom: 220%;
+  position: absolute;
+  left: 300px;
 }
 
 .fab {
   color: #fff;
   position: relative;
   bottom: 700%;
+}
+.mic img {
+  position: absolute;
+  left: 68px;
+  top: 50px;
 }
